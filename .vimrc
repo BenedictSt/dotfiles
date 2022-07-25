@@ -26,6 +26,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'instant-markdown/vim-instant-markdown', {'for': 'markdown', 'do': 'yarn install'}
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 let g:airline_section_z = "%p%%  ☰ %l/%L ☷ %c"
